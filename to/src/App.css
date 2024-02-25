@@ -1,0 +1,72 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color:rgb(100, 25, 213); 
+  height: 100vh;
+}
+.App
+{
+  width:700px;
+  background-color: #fff;
+  border:1px solid #fff;
+  margin: 15% auto;
+  padding:50px;
+  text-align: center;
+  border-radius:10px;
+  color: gray;
+}
+.App h2{
+  color:gray;
+}
+.App ul
+{
+  list-style:"🖊️" ;
+  cursor: pointer;
+  font-size: 22px;
+  color:rgb(54, 17, 94);
+  font-weight: bold;
+  margin:auto;
+  padding: 3%;
+
+}
+.App input{
+  width:180px;
+  height:40px;
+  border-radius:10px;
+  margin:20px auto;
+  text-align: center;
+}
+.App button{
+  display:block;
+  margin:auto;
+  width:150px;
+  height:30px;
+  background-color:	rgb(44, 46, 54);
+  color:white;
+  border-radius:5px;
+  border:0;
+}
+.App button:hover{
+  background-color:	rgba(53, 84, 177, 0.861);
+
+}
+.App ul li{
+  word-wrap: break-word;
+  padding: 3%;
+}
+.diffstyle
+{
+  list-style: "✅";
+  text-decoration: line-through;
+}
+.div1
+{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
